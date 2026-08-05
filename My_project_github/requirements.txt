@@ -1,0 +1,11 @@
+awkward
+ipython
+matplotlib
+numpy
+pandas
+scikit-learn
+seaborn
+torch
+torch-geometric
+tqdm
+uproot

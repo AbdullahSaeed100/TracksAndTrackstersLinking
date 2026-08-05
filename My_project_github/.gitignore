@@ -1,0 +1,33 @@
+# Private local configuration
+.env
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Notebook-generated files
+.ipynb_checkpoints/
+
+# External and generated datasets
+data/
+raw/
+processed/
+*.root
+
+# Training outputs
+checkpoints/
+*.pt
+*.pth
+*.pt.tmp
+*.pth.tmp
+
+# Training-only preprocessing output (regenerated from the frozen train split)
+all_stats_train*.json
+
+# Local logs and editor files
+*.log
+.DS_Store
+.idea/
+.vscode/
